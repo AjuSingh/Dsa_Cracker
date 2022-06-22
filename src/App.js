@@ -9,6 +9,11 @@ import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
 import ReactGA from "react-ga";
 import "./App.css";
+import Notes from "./components/Notes";
+import Dbms from "./components/Subjects/Dbms";
+import Sql from "./components/Subjects/Sql";
+import Cn from "./components/Subjects/Cn";
+import Os from "./components/Subjects/Os";
 
 // Creating a theme context
 export const ThemeContext = createContext(null);
@@ -89,7 +94,7 @@ function App() {
 		<Router>
 			<div className={dark ? "App dark" : "App"}>
 				<h1 className="app-heading text-center mt-5" style={{ color: dark ? "white" : "" }}>
-					450 DSA Cracker
+					Interview Cracker
 				</h1>
 
 				{questionData.length === 0 ? (
@@ -102,6 +107,13 @@ function App() {
 						<ThemeContext.Provider value={dark}>
 							{/* HOME AND ABOUT ROUTE */}
 							<Route exact path="/" children={<TopicCard questionData={questionData}></TopicCard>} />
+							<Route exact path="/notes" children={ <Notes></Notes>} />
+							<Route exact path="/dbms" children={ <Dbms></Dbms>} />
+							<Route exact path="/sql" children={ <Sql></Sql>} />
+							<Route exact path="/cn" children={ <Cn></Cn>} />
+							<Route exact path="/os" children={ <Os></Os>} />
+
+
 							<Route
 								path="/about"
 								children={

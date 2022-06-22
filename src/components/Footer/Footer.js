@@ -6,7 +6,7 @@ export default function Footer({ dark, setDark }) {
 	return (
 		<div>
 			<footer className="footer" style={{ backgroundColor: dark ? "#393E46" : "" }}>
-				<div className="d-flex bd-highlight">
+				<div className="d-flex bd-highlight"   style={{flexWrap:"wrap"}}>
 					<div className="p-2 bd-highlight">
 						<a href="https://github.com/AjuSingh/Dsa_Cracker">
 							<h4>
@@ -27,6 +27,19 @@ export default function Footer({ dark, setDark }) {
 										💻
 									</span>{" "}
 									Live Contest
+								</Badge>
+							</h4>
+						</a>
+					</div>
+
+					<div className="p-2 bd-highlight">
+						<a href="/notes">
+							<h4>
+								<Badge pill variant="light" className="hvr-grow">
+									<span role="img" aria-label="star" className="emojiFix">
+										📝
+									</span>{" "}
+									Notes
 								</Badge>
 							</h4>
 						</a>
