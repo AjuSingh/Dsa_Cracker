@@ -20,7 +20,7 @@ export default function Footer({ dark, setDark }) {
 						</a>
 					</div>
 					<div className="p-2 bd-highlight">
-						<a href="https://codingcontest.herokuapp.com/">
+						<a href="https://contestsite.herokuapp.com/">
 							<h4>
 								<Badge pill variant="light" className="hvr-grow">
 									<span role="img" aria-label="star" className="emojiFix">
