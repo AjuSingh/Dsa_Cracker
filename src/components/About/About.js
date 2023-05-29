@@ -48,14 +48,8 @@ export default function About({ resetData, exportData, importData }) {
 						</h2>
 						<h4 className="text-center my-5">
 							Project by{" "}
-							<a href="https://www.linkedin.com/in/armaaninder-singh-a21a16212/" target="_blank" rel="noopener noreferrer">
-								Armaan
-							</a>{" "}
-							<a href="https://www.linkedin.com/in/kunika-singla-b35b141a1/" target="_blank" rel="noopener noreferrer">
-								Kunika
-							</a>{" "}
-							<a href="https://www.linkedin.com/in/ajvindersingh/" target="_blank" rel="noopener noreferrer">
-								Ajvinder
+							<a href="#" rel="noopener noreferrer">
+								Nirwair Sidhu 
 							</a>{" "}
 							<span role="img" aria-label="code-men">
 								👨🏻‍💻

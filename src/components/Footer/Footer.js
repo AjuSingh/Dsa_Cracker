@@ -19,18 +19,6 @@ export default function Footer({ dark, setDark }) {
 							</h4>
 						</a>
 					</div>
-					<div className="p-2 bd-highlight">
-						<a href="https://contestsite.herokuapp.com/">
-							<h4>
-								<Badge pill variant="light" className="hvr-grow">
-									<span role="img" aria-label="star" className="emojiFix">
-										💻
-									</span>{" "}
-									Live Contest
-								</Badge>
-							</h4>
-						</a>
-					</div>
 
 					<div className="p-2 bd-highlight">
 						<a href="/notes">
